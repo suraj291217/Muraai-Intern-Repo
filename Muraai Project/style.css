@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #fce7f3);
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form-container input {
+  border-color: #6366f1;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6366f1;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4f46e5;
+}
+
+.employee-section {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.employee-section h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+#employeeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.employee-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid #6366f1;
+}
+
+.employee-card h3 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+.employee-card p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.remove-button {
+  background-color: #ef4444;
+  margin-top: 10px;
+}
+
+.remove-button {
+  background-color: #dc2626;
+}
+
+@media (max-width: 750px) {
+  #employeeContainer {
+    grid-template-columns: 1fr;
+  }
+}
