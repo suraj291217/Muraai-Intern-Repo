@@ -17,7 +17,7 @@ addEmployeeButton.addEventListener("click", () => {
         return;
     }
     const employee = {
-        id: employees.length + 1,
+        id: employees.length + 1001,
         name: name,
         department: department,
         experience: experience,

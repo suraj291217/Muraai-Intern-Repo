@@ -1,40 +1,38 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Employee Management System</title>
-
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <h1>Employee Management System</h1>
+    <header class="header-banner">
+      <div class="header-content">
+        <h1>Employee Management System</h1>
+        <p class="subtitle">Manage and track your workforce easily</p>
+      </div>
+    </header>
 
+    <div class="container">
       <div class="form-container">
         <h2>Add Employee</h2>
 
         <input type="text" id="nameInput" placeholder="Employee Name" />
-
         <input type="text" id="departmentInput" placeholder="Department" />
-
         <input
           type="number"
           id="experienceInput"
           placeholder="Experience in years"
         />
-
         <input type="number" id="salaryInput" placeholder="Salary" />
 
         <button id="addEmployeeButton">Add Employee</button>
       </div>
+
       <div class="employee-section">
         <h2>Employees</h2>
-
         <div id="employeeContainer"></div>
       </div>
     </div>
