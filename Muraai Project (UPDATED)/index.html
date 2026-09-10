@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header-banner">
+      <div class="header-content">
+        <p class="eyebrow">Workforce directory</p>
+        <h1>Employee Management System</h1>
+        <p class="subtitle">Add, review, and maintain employee records in one place.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="form-container">
+        <div class="section-heading">
+          <h2>Add Employee</h2>
+          <p>Enter the details below to create a new record.</p>
+        </div>
+
+        <div class="form-grid">
+          <label>
+            Full name
+            <input type="text" id="nameInput" placeholder="e.g. Suraj Jagadeesh" oninput="this.value = this.value.replace(/[0-9]/g, '')"/>
+          </label>
+          <label>
+            Department
+            <input type="text" id="departmentInput" placeholder="e.g. Engineering" oninput="this.value = this.value.replace(/[0-9]/g, '')"/>
+          </label>
+          <label>
+            Experience (years)
+            <input type="number" id="experienceInput" placeholder="0" min="0" />
+          </label>
+          <label>
+            Salary (₹)
+            <input type="number" id="salaryInput" placeholder="0" min="0" />
+          </label>
+        </div>
+
+        <button id="addEmployeeButton" type="button">Add employee</button>
+      </section>
+
+      <section class="employee-section">
+        <div class="section-heading">
+          <h2>Employees</h2>
+          <p>Your current workforce directory.</p>
+        </div>
+        <div id="employeeContainer"></div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
