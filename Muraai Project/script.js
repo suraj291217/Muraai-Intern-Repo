@@ -14,7 +14,7 @@ addEmployeeButton.addEventListener("click", () => {
     const salary = Number(salaryInput.value);
     if (name === "" || department === "" || experience === 0 || salary === 0) {
         alert("Please fill all fields");
-        return;
+        return; 
     }
     const employee = {
         id: employees.length + 1001,
