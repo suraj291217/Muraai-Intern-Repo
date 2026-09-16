@@ -13,3 +13,4 @@
 | **Day 11** | Why Types Matter, Why We Are Using TypeScript, Improving Applications with TypeScript Concepts |
 | **Day 12** | Types, Interfaces, Type Aliases, Unions, Generics, Enums, Type Inference, `tsconfig.json`, Utility Types, Narrowing |
 | **Day 13** | Application Enhancement, UI changes, Application Made Static Typed by Using TS |
+| **Day 14** | Segmented Control, Required Fields Validation, Time-out Implementation, Logical Improvements|
