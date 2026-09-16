@@ -12,4 +12,4 @@
 | **Day 10** | Project Enhancement (CRUD Operations Implementation) |
 | **Day 11** | Why Types Matter, Why We Are Using TypeScript, Improving Applications with TypeScript Concepts |
 | **Day 12** | Types, Interfaces, Type Aliases, Unions, Generics, Enums, Type Inference, `tsconfig.json`, Utility Types, Narrowing |
-| **Day 13** | Application Enhancement |
+| **Day 13** | Application Enhancement, UI changes, Application Made Static Typed by Using TS |
