@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.header-banner {
+  background-color: #4f46e5;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 28px;
+  color: white;
+}
+
+.header-content .subtitle {
+  margin: 8px 0 0 0;
+  font-size: 15px;
+  color: #e0e7ff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.form-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form-container input:focus {
+  border-color: #4f46e5;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.employee-section {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.employee-section h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+#employeeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  border-top: 4px solid #4f46e5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.employee-card h3 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+.employee-card p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.remove-button {
+  background-color: #dc2626;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.remove-button:hover {
+  background-color: #b91c1c;
+}
+
+@media (max-width: 750px) {
+  #employeeContainer {
+    grid-template-columns: 1fr;
+  }
+}
